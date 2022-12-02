@@ -10,9 +10,13 @@ This repository contains the code to generate polymers from their base units in 
     USAGE: a = make_polymers_inp(name, base_unit, repeat_unit, max_units, generate_inputs)
     
     name = "3HB" (only an example)
+    
     base_unit = "OC(C)CC(=O)O" (only an example)
+    
     repeat_unit = "C(C)CC(=O)O" (only an example)
+    
     max_units = integer (i.e. 5 will make all polymers up to the pentamer)
+    
     generate_inputs  = boolean (True/False - True will create input files for each polymer generated but False will just return a list of polymers in smilesstring format)
     
 Note: The final argument is the most important - True will create a filetree for the polymer you are making and generate an input for each polymer up to the polymer that is the length of the max unit (i.e. if max_units = 5, there will be 5 input files created, one for each polymer of incresing size for monomer --> pentamer). 
