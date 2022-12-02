@@ -8,6 +8,7 @@ This repository contains the code to generate polymers from their base units in 
 3) Using the "make_polymers_inp" function:
 
     USAGE: a = make_polymers_inp(name, base_unit, repeat_unit, max_units, generate_inputs)
+    
     name = "3HB" (only an example)
     base_unit = "OC(C)CC(=O)O" (only an example)
     repeat_unit = "C(C)CC(=O)O" (only an example)
