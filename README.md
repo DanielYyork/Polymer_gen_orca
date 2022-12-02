@@ -22,6 +22,7 @@ This repository contains the code to generate polymers from their base units in 
 Note: The final argument is the most important - True will create a filetree for the polymer you are making and generate an input for each polymer up to the polymer that is the length of the max unit (i.e. if max_units = 5, there will be 5 input files created, one for each polymer of incresing size for monomer --> pentamer). 
 
 The code in "polymer_2_inp.py" utilises the the function decribed above in a for loop to generate input files for monomers --> pentamers for 4 different base units - so this is a good examples of how to use the function.
+![image](https://user-images.githubusercontent.com/93723782/205310621-071e1f24-fae2-451c-92d7-56d208e855b2.png)
 
 Any issues, email: daniel.yyork@gmail.com
 
